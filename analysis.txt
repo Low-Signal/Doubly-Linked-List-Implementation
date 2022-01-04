@@ -1,0 +1,51 @@
+/* Note that times for the first execution of each 
+reverse list size is greater than expected. Upon farther analysis
+running larger sets of list, this error is due to linprog and not the
+program itself. */
+
+Execution times for the reverse function:
+
+Input Size 100 execution times:
+Time One = 37 usec
+Time Two = 27 usec
+Time Three = 29 usec
+Average Time = 31 usec
+
+Input Size 1000 execution times:
+Time One = 302 usec
+Time Two = 253 usec
+Time Three = 266 usec
+Average Time = 273 usec
+
+Input Size 10000 execution times:
+Time One = 2913 usec
+Time Two = 2306 usec
+Time Three = 2305 usec
+Average Time = 2508 usec
+
+Reverse function Big-O complexity = O(N)
+
+
+
+Execution time for the deduplicate function:
+
+Input Size 100 execution times:
+Time One = 166 usec
+Time Two = 159 usec
+Time Three = 160 usec
+Average Time = 161 usec
+
+Input Size 1000 execution times:
+Time One = 13170 usec
+Time Two = 12104 usec
+Time Three = 11224 usec
+Average Time = 12166 usec
+
+Input Size 10000 execution times:
+Time One = 736181 usec
+Time Two = 664657 usec
+Time Three = 648285 usec
+Average Time = 683041 usec
+
+Deduplicate function Big-O complexity = O(n^2)
+
